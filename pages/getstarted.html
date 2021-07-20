@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hawaii</title>
-    <link rel="stylesheet" href="../css/destinations.css">
-    <link rel="stylesheet" href="../css/global.css">
+    <title>Booking details</title>
 </head>
 <body>
     <header>
         <nav class="nav-bar">
             <div class="nav-bar__logobox">
-                <a href="../index.html" class="nav-bar__logo">Travel Site</a>
+                <a href="../index.html"class="nav-bar__logo">Travel Site</a>
             </div>
             <div class="nav-bar__listbox">
                 <ul class="nav-bar__list">
@@ -25,49 +23,39 @@
         </nav>
     </header>
     <main>
-        <section class="vaccation-content">
-        <h1>Hawaii</h1>
-        <article class="vaccation-content__cards">
-            <h3>Friday</h3>
-            <hr />
-            <div class="vaccation-content__activities">
-                <ul>
-                    <li>Breakfast</li>
-                    <li>Lunch</li>
-                    <li>Dinner</li>
-                    <li>Snorkeling</li>
-                </ul>
-            </div>            
-        </article>
-        <article class="vaccation-content__cards">
-            <h3>Saturday</h3>
-            <hr />
-            <div class="vaccation-content__activities">
-                <ul>
-                    <li>Breakfast</li>
-                    <li>Lunch</li>
-                    <li>Dinner</li>
-                    <li>Snorkeling</li>
-                </ul>
-            </div>
-        </article>
-        <article class="vaccation-content__cards">
-            <h3>Sunday</h3>
-            <hr />
-            <div class="vaccation-content__activities">
-                <ul>
-                    <li>Breakfast</li>
-                    <li>Lunch</li>
-                    <li>Dinner</li>
-                    <li>Snorkeling</li>
-                </ul>
-            </div>
-        </article>
-       </section>   
+        <section class="register-form">
+            <form>
+                <fieldset>
+                    <legend>Book your favourite destination</legend>
+                    <div class="register-form__inputs">
+                        <label for="name">Your name:</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="register-form__inputs">
+                        <label for="email">Your email:</label>
+                        <input type="text" id="email">
+                    </div>
+                    <div class="register-form__inputs">
+                        <label for="destination">Destination:</label>
+                        <select name="location" id="location">
+                            <option value="HW">Hawaii</option>
+                            <option value="IL">Iceland</option>
+                            <option value="GC">Greece</option>
+                        </select>    
+                    </div>
+                    <div class="register-form__inputs">
+                        <label for="message">Message:</label>
+                        <textarea id="messagebox">
+                        </textarea>
+                    </div>
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+        </section>
     </main>
     <footer>
         <div class="footer-main">
-            <div class="footer-main__divisions">
+            <div class="footer-divisions">
                 <h3>Contact</h3>
                 <div class="footer-division__content">
                     <table>
@@ -80,7 +68,7 @@
                     </table>
                 </div>
             </div>
-            <div class= "footer-main__divisions">
+            <div class= "footer-divisions">
                 <h3>Hours</h3>
                 <div class="footer-division__content">
                     <table>
@@ -97,7 +85,7 @@
                     </table>
                 </div>
             </div>
-            <div class= "footer-main__divisions">
+            <div class= "footer-divisions">
                 <h3>Social</h3>
                 <div class="footer-division__content">
                     <img src="../assets/Icons/icon-instagram.png" alt="Instagram">
@@ -106,6 +94,7 @@
                 </div>
             </div>
         </div>
+    </footer>
     </footer>
 </body>
 </html>
