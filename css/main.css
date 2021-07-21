@@ -85,3 +85,7 @@ article.destination-section__cards{
 
 }
 
+a.destination-cards__names{
+    text-decoration: none;
+}
+

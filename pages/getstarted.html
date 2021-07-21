@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking details</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/getstarted.css">
 </head>
 <body>
     <header>
@@ -24,33 +26,35 @@
     </header>
     <main>
         <section class="register-form">
-            <form>
-                <fieldset>
-                    <legend>Book your favourite destination</legend>
-                    <div class="register-form__inputs">
-                        <label for="name">Your name:</label>
-                        <input type="text" id="name">
-                    </div>
-                    <div class="register-form__inputs">
-                        <label for="email">Your email:</label>
-                        <input type="text" id="email">
-                    </div>
-                    <div class="register-form__inputs">
-                        <label for="destination">Destination:</label>
-                        <select name="location" id="location">
-                            <option value="HW">Hawaii</option>
-                            <option value="IL">Iceland</option>
-                            <option value="GC">Greece</option>
-                        </select>    
-                    </div>
-                    <div class="register-form__inputs">
-                        <label for="message">Message:</label>
-                        <textarea id="messagebox">
-                        </textarea>
-                    </div>
-                    <button>Submit</button>
-                </fieldset>
-            </form>
+            <div class="register-form__formbox">
+                <form>
+                    <fieldset>
+                        <legend>Book your favourite destination</legend>
+                        <div class="register-form__inputs">
+                            <label for="name">Your name:</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="register-form__inputs">
+                            <label for="email">Your email:</label>
+                            <input type="text" id="email">
+                        </div>
+                        <div class="register-form__inputs">
+                            <label for="destination">Destination:</label>
+                            <select name="location" id="location">
+                                <option value="HW">Hawaii</option>
+                                <option value="IL">Iceland</option>
+                                <option value="GC">Greece</option>
+                            </select>    
+                        </div>
+                        <div class="register-form__inputs">
+                            <label for="message">Message:</label>
+                            <textarea id="messagebox">
+                            </textarea>
+                        </div>
+                        <button>Submit</button>
+                    </fieldset>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
@@ -87,10 +91,11 @@
             </div>
             <div class= "footer-divisions">
                 <h3>Social</h3>
-                <div class="footer-division__content">
-                    <img src="../assets/Icons/icon-instagram.png" alt="Instagram">
-                    <img src="../assets/Icons/icon-facebook.png" alt="Facebook">
-                    <img src="../assets/Icons/icon-twitter.png" alt="Twitter">
+                <div class="footer-main__content">
+                    <a href="https://www.instagram.com/"><img src="../assets/Icons/icon-instagram.png" alt="Instagram"></a>
+                    <!--Modifier used to correct the size-->
+                    <a href="https://www.facebook.com/"><img class="footer-main__content footer-main__content--fb" src="../assets/Icons/icon-facebook.png" alt="Facebook"></a>
+                    <a href="https://www.twitter.com/"><img src="../assets/Icons/icon-twitter.png" alt="Twitter">
                 </div>
             </div>
         </div>
