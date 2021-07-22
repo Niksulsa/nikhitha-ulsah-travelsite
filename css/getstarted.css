@@ -8,14 +8,21 @@
 }
 
 .register-form__formbox{
+   
     display: flex;
     padding: 1rem;
+    box-shadow: rgb(0,0,255,0.15);
 }
-form, fieldset{
-    padding:1rem;
+form{
+    width: 30vw;
     height: 50vh;
 }
 
 .register-form__inputs{
     padding:1rem;}
 
+fieldset{
+    background-color: #FEFAF5;
+    border-radius: 15px;
+    box-shadow: black;
+}

@@ -105,8 +105,8 @@ h4{
     font-size:12px;
     font-weight: 500;
 }
-.footer-container__box h3{
-    color:#335576
+.footer-container__box h3, p{
+    color:#335576;
 }
 .footer-container__content img{
     width:10%;
