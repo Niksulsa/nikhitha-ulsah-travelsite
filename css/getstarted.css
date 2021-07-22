@@ -2,18 +2,20 @@
     background: url("../assets/Images/vaccation.jpg") no-repeat center center;
     background-size: cover;
     height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .register-form__formbox{
     display: flex;
     padding: 1rem;
-    align-items: center;
-    justify-content: center;
 }
 form, fieldset{
     padding:1rem;
     height: 50vh;
 }
 
-.register-form__inputs{padding:1rem;}
+.register-form__inputs{
+    padding:1rem;}
 

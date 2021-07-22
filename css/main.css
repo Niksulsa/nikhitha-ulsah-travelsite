@@ -1,15 +1,18 @@
 .intro-section{
     background-color: #FEFAF5;
-    padding:1rem;
+    padding:0.3rem;
     display:flex;
-    height:70vh;
+    justify-content: center;
+    align-items: center;
 }
 .intro-section__about{
     padding:1rem;
+    display: flex;
     flex-direction: column;
-    align-self: center;
-    width:50vw;
+    align-content: center;
+    margin:1rem
 }
+
 .intro-section__head{
     padding:1rem;
     color:#335576;
@@ -40,7 +43,7 @@ height:4vh;
 
 .hero-picture__container img{
     padding:0.7rem;
-    width:40vw;
+    width:42vw;
 }
 
 .destination-section{
@@ -50,42 +53,38 @@ height:4vh;
 .destination-section h2{
     width:20%;
     padding: 1rem;
-    margin-left: 30px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+
+}
+.destination-section__cards a img{
+    width:70%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 255, 0.20);
+    box-shadow: 0px 4px 4px rgba(0, 0, 255, 0.20);
+
 }
 .destination-section__container{
-    display:flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:7rem;
+    margin-right: 7rem;
+}
+.destination-section__cards{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
     position: relative;
-    margin: 0.5em 10em 0.5em 10em;
-    height:50vh;
-
-}
-article.destination-section__cards{
-    position: relative;
-    display: inline-flex;
-    justify-content: space-evenly;
-    padding: 0.3em;
-    
-
-}
-.destination-section__container img{
-    width:80%;
-    text-align: center;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
-.destination-cards__names {
+.destination-cards__names{
     position:absolute;
-    bottom: 30px;
-    right: 45px;  
+    bottom: 2rem;
+    right: 5rem; 
     color:#FFFFFF;
     font-weight: bolder;
-
-}
-
-a.destination-cards__names{
     text-decoration: none;
 }
 

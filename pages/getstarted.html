@@ -32,7 +32,7 @@
                         <legend>Book your favourite destination</legend>
                         <div class="register-form__inputs">
                             <label for="name">Your name:</label>
-                            <input type="text" id="name">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
                         </div>
                         <div class="register-form__inputs">
                             <label for="email">Your email:</label>
@@ -40,7 +40,7 @@
                         </div>
                         <div class="register-form__inputs">
                             <label for="destination">Destination:</label>
-                            <select name="location" id="location">
+                            <select name="location" id="location" placeholder="email address">
                                 <option value="HW">Hawaii</option>
                                 <option value="IL">Iceland</option>
                                 <option value="GC">Greece</option>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="register-form__inputs">
                             <label for="message">Message:</label>
-                            <textarea id="messagebox">
+                            <textarea id="message" name="message" placeholder="Write something.." style="height:100px">
                             </textarea>
                         </div>
                         <button>Submit</button>
@@ -58,48 +58,43 @@
         </section>
     </main>
     <footer>
-        <div class="footer-main">
-            <div class="footer-divisions">
+        <div class="footer-container">
+            <div class="footer-container__box">
                 <h3>Contact</h3>
-                <div class="footer-division__content">
-                    <table>
-                        <tr>
-                            <th> Email</th>
-                        </tr>
-                        <tr>
-                            <td> info@travelsite.com</td>
-                        </tr>
-                    </table>
+                <div class="footer-container__content">
+                    <div>
+                        <h4>Email</h4>
+                        <p> info@travelsite.com</p>
+                    </div>
                 </div>
             </div>
-            <div class= "footer-divisions">
+            <div class="footer-container__box">
                 <h3>Hours</h3>
-                <div class="footer-division__content">
-                    <table>
-                        <tr>
-                            <th colspan="2">Monday-Friday</th>
-                            <th colspan="2">Saturday</th>
-                            <th colspan="1">Sunday</th>
-                        </tr>
-                        <tr>
-                            <td Colspan="2">9:00 AM - 5:00 PM</td>
-                            <td colspan="2">10:00 AM - 4:00 PM</td>
-                            <td>Closed</td>
-                        </tr>
-                    </table>
+                <div class="footer-container__content footer-container__content--selected">
+                    <div>
+                        <h4>Monday-Friday</h4>
+                        <p>9:00 AM - 5:00 PM</p>  
+                    </div>
+                    <div>
+                        <h4>Saturday</h4>
+                        <p>10:00 AM - 4:00 PM</p>  
+                    </div>
+                    <div>
+                        <h4>Sunday</h4>
+                        <p>Closed</p>  
+                    </div>
                 </div>
             </div>
-            <div class= "footer-divisions">
+            <div class="footer-container__box">
                 <h3>Social</h3>
-                <div class="footer-main__content">
+                <div class="footer-container__content">
                     <a href="https://www.instagram.com/"><img src="../assets/Icons/icon-instagram.png" alt="Instagram"></a>
-                    <!--Modifier used to correct the size-->
-                    <a href="https://www.facebook.com/"><img class="footer-main__content footer-main__content--fb" src="../assets/Icons/icon-facebook.png" alt="Facebook"></a>
-                    <a href="https://www.twitter.com/"><img src="../assets/Icons/icon-twitter.png" alt="Twitter">
+                    <a href="https://www.facebook.com/"><img class="footer-container__content footer-container__content--fb" src="../assets/Icons/icon-facebook.png" alt="Facebook"></a>
+                    <a href="https://twitter.com/"><img  src="../assets/Icons/icon-twitter.png" alt="Twitter"></a>
                 </div>
             </div>
         </div>
-    </footer>
-    </footer>
+    </footer>    
+  <!--Footer ends here-->
 </body>
 </html>

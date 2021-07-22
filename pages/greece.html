@@ -16,10 +16,14 @@
             </div>
             <div class="nav-bar__listbox">
                 <ul class="nav-bar__list">
-                    <li class="nav-bar__item"><a href="../index.html">Home</a></li>
-                    <li class="nav-bar__item"><a href="./hawaii.html">Hawaii</a></li>
-                    <li class="nav-bar__item"><a href="./iceland.html">Iceland</a></li>
-                    <li class="nav-bar__item"><a href="./greece.html">Greece</a></li>
+                    <li class="nav-bar__item">
+                        <a  class="nav-bar__link" href="../index.html">Home</a></li>
+                    <li class="nav-bar__item">
+                        <a  class="nav-bar__link" href="./hawaii.html">Hawaii</a></li>
+                    <li class="nav-bar__item">
+                        <a  class="nav-bar__link" href="./iceland.html">Iceland</a></li>
+                    <li class="nav-bar__item nav-bar__item--active"">
+                        <a  class="nav-bar__link " href="./greece.html">Greece</a></li>
                 </ul>
             </div>
         </nav>
@@ -68,50 +72,43 @@
         </section>
     </main>
     <footer>
-        <div class="footer-main">
-            <div class="footer-main__divisions">
+        <div class="footer-container">
+            <div class="footer-container__box">
                 <h3>Contact</h3>
-                <div class="footer-division__content">
-                    <table>
-                        <tr>
-                            <th> Email</th>
-                        </tr>
-                        <tr>
-                            <td> info@travelsite.com</td>
-                        </tr>
-                    </table>
+                <div class="footer-container__content">
+                    <div>
+                        <h4>Email</h4>
+                        <p> info@travelsite.com</p>
+                    </div>
                 </div>
             </div>
-            <div class= "footer-main__divisions">
+            <div class="footer-container__box">
                 <h3>Hours</h3>
-                <div class="footer-division__content">
-                    <table>
-                        <tr>
-                            <th colspan="2">Monday-Friday</th>
-                            <th colspan="2">Saturday</th>
-                            <th colspan="1">Sunday</th>
-                        </tr>
-                        <tr>
-                            <td Colspan="2">9:00 AM - 5:00 PM</td>
-                            <td colspan="2">10:00 AM - 4:00 PM</td>
-                            <td>Closed</td>
-                        </tr>
-                    </table>
+                <div class="footer-container__content footer-container__content--selected">
+                    <div>
+                        <h4>Monday-Friday</h4>
+                        <p>9:00 AM - 5:00 PM</p>  
+                    </div>
+                    <div>
+                        <h4>Saturday</h4>
+                        <p>10:00 AM - 4:00 PM</p>  
+                    </div>
+                    <div>
+                        <h4>Sunday</h4>
+                        <p>Closed</p>  
+                    </div>
                 </div>
             </div>
-            <!--Hours of operation section ends here-->
-            <!--Media contact section starts here-->
-            <div class= "footer-main__divisions">
+            <div class="footer-container__box">
                 <h3>Social</h3>
-                <div class="footer-main__content">
+                <div class="footer-container__content">
                     <a href="https://www.instagram.com/"><img src="../assets/Icons/icon-instagram.png" alt="Instagram"></a>
-                    <!--Modifier used to correct the size-->
-                    <a href="https://www.facebook.com/"><img class="footer-main__content footer-main__content--fb" src="../assets/Icons/icon-facebook.png" alt="Facebook"></a>
-                    <a href="https://www.twitter.com/"><img src="../assets/Icons/icon-twitter.png" alt="Twitter">
-                </div>
+                    <a href="https://www.facebook.com/"><img class="footer-container__content footer-container__content--fb" src="../assets/Icons/icon-facebook.png" alt="Facebook"></a>
+                    <a href="https://twitter.com/"><img src="../assets/Icons/icon-twitter.png" alt="Twitter"></a>
+                </div>    
             </div>
-            <!--Media contact section ends here-->
         </div>
-    </footer>
+    </footer>    
+  <!--Footer ends here-->
 </body>
 </html>
